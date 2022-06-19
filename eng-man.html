@@ -1,0 +1,626 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="card-styles.css">
+<link rel="stylesheet" href="swiper-4.5.0/dist/css/swiper.min.css">
+<link href="https://fonts.googleapis.com/css?family=Amarante" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Nova Cut" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=kavoon" rel="stylesheet">
+<script src="jquery-3.2.1.min.js"></script>
+<title>English-Mandan Flashcards</title>
+</head>
+
+<body>
+	
+	<div class="container">	
+
+	<header class="LangHeader Manlang">
+		<a id="backbtn" href="index.html">Home</a>
+		<p class="title Mantitle" style="color:firebrick;font-family:Amarante">Núú’etaa / Núptaare Vocabulary Cards (Mashí’)</p>
+	</header>
+	
+
+ 	<main class="soundcards swiper-container Manmain">		
+		<!--<div class="soundcards swiper-container">-->
+			<div class="card swiper-wrapper">
+				<div class="swiper-slide" id="mashitawaakta" style="background-image:url(./images/mandan/apple_mashitawaakta.jpg)" alt="mashí tawáákta'">
+					<audio id="audmashitawaakta">
+						<source src=" " type="audio/ogg"/>
+						<source src="" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="aare" style="background-image:url(./images/mandan/arm_aare.jpg)" alt="ááre">
+					<audio id="audaare">
+						<source src="nueta_audio/arm_aare_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/arm_aare_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="nahe" style="background-image:url(./images/mandan/back_nahe.jpg)" alt="nahé">
+					<audio id="audnahe">
+						<source src="nueta_audio/back_nahe_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/back_nahe_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="oomnike" style="background-image:url(./images/mandan/beans_oomnike.jpg)" alt="óómnike">
+					<audio id="audoomnike">
+						<source src="nueta_audio/beans_oomnik_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/beans_oomnik_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="warape" style="background-image:url(./images/mandan/beaver_warape.jpg)" alt="wárape">					
+					<audio id="audwarape">
+						<source src="nueta_audio/beaver_warape_eb_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/beaver_warape_eb_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="waapapshiire" style="background-image:url(./images/mandan/bread_waapapshiire.jpg)" alt="waapápshiire">
+					<audio id="audwaapapshiire">
+						<source src="nueta_audio/bread_waapapshiire_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/bread_waapapshiire_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="mahse" style="background-image:url(./images/mandan/carrots_mahse.jpg)" alt="máh sé'">
+					<audio id="audmahse">
+						<source src="nueta_audio/carrots_mah_se'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/carrots_mah_se'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="puse" style="background-image:url(./images/mandan/cat_puse.jpg)" alt="pusé">
+					<audio id="audpuse">
+						<source src="nueta_audio/cat_puse_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/cat_puse_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="waraxuure" style="background-image:url(./images/mandan/coffee_waraxuure.jpg)" alt="waráxuure">
+					<audio id="audwaraxuure">
+						<source src="nueta_audio/coffee_waraxuure_eb_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/coffee_waraxuure_eb_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="kooxate" style="background-image:url(./images/mandan/corn_kooxate.jpg)" alt="kóóxą'te'">					
+					<audio id="audkooxate">
+						<source src="nueta_audio/corn_kooxa'te_eb_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/corn_kooxa'te_eb_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="maahsi" style="background-image:url(./images/mandan/eagle_maahsi.jpg)" alt="mááhsi'">
+					<audio id="audmaahsi">
+						<source src="nueta_audio/eagle_maahsi'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/eagle_maahsi'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="maaniika" style="background-image:url(./images/mandan/eggs_maaniika.jpg)" alt="máániika'">
+					<audio id="audmaaniika">
+						<source src="nueta_audio/eggs_maaniika'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/eggs_maaniika'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="uupa" style="background-image:url(./images/mandan/elk_uupa.jpg)" alt="ų́ų́pa'">
+					<audio id="auduupa">
+						<source src="nueta_audio/elk_uupa'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/elk_uupa'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="istami" style="background-image:url(./images/mandan/eye_istami.jpg)" alt="istámi'">
+					<audio id="audistami">
+						<source src="nueta_audio/eye_istami'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/eye_istami'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="po" style="background-image:url(./images/mandan/fish_po.jpg)" alt="pó'">
+					<audio id="audpo">
+						<source src="nueta_audio/fish_po'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/fish_po'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="woorute" style="background-image:url(./images/mandan/food_woorute.jpg)" alt="wóórute">
+					<audio id="audwoorute">
+						<source src="nueta_audio/food_woorute_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/food_woorute_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="shi" style="background-image:url(./images/mandan/foot_shi.jpg)" alt="shí'">
+					<audio id="audshi">
+						<source src="nueta_audio/foot_shi'_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/foot_shi'_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="siihaairokinire" style="background-image:url(./images/mandan/frybread_siihaa_irokinire.jpg)" alt="sį́į́haa írokini're">
+					<audio id="audsiihaairokinire">
+						<source src="" type="audio/ogg"/>
+						<source src="" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="shish" style="background-image:url(./images/mandan/good_shish.jpg)" alt="Shí'sh!">
+					<audio id="audshish">
+						<source src="nueta_audio/good_shi'sh_eb_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/good_shi'sh_eb_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="mniheekshish" style="background-image:url(./images/mandan/good_to_see_you_mniheek_shish.jpg)" alt="Mníheek shí'sh!">
+					<audio id="audmniheekshish">
+						<source src="nueta_audio/good_to_see_you_mniheek_shi'sh_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/good_to_see_you_mniheek_shi'sh_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="pahi" style="background-image:url(./images/mandan/hair_pahi.jpg)" alt="pahį́'">
+					<audio id="audpahi">
+						<source src="nueta_audio/hair_pahi'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/hair_pahi'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="uke" style="background-image:url(./images/mandan/hand_uke.jpg)" alt="ųké">
+					<audio id="auduke">
+						<source src="nueta_audio/hand_uke_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/hand_uke_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="pa" style="background-image:url(./images/mandan/head_pa.jpg)" alt="pá'">
+					<audio id="audpa">
+						<source src="nueta_audio/head_pa'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/head_pa'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="natka" style="background-image:url(./images/mandan/heart_natka.jpg)" alt="nátka'">
+					<audio id="audnatka">
+						<source src="nueta_audio/heart_natka'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/heart_natka'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="manise" style="background-image:url(./images/mandan/horse_manise.jpg)" alt="maníse">
+					<audio id="audmanise">
+						<source src="nueta_audio/horse_manise_eb_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/horse_manise_eb_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="tashkasha" style="background-image:url(./images/mandan/how_are_you_tashkasha.jpg)" alt="Tashká'sha/'na'">
+					<audio id="audtashkasha">
+						<source src="nueta_audio/how_are_you_tashkasha_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/how_are_you_tashkasha_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				
+				<div class="swiper-slide" id="maskape" style="background-image:url(./images/mandan/meat_maskape.jpg)" alt="má'skape">
+					<audio id="audmaskape">
+						<source src="nueta_audio/meat_ma'skape_eb_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/meat_ma'skape_eb_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="mashkaomni" style="background-image:url(./images/mandan/milk_mashka_omni.jpg)" alt="mashká ómni'">
+					<audio id="audmashkaomni">
+						<source src="nueta_audio/milk_mashka_omni'_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/milk_mashka_omni'_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="istuhminaaki" style="background-image:url(./images/mandan/moon_istuhminaaki.jpg)" alt="istų́hminaaki'">
+					<audio id="audistuhminaaki">
+						<source src="nueta_audio/moon_istuhminaaki'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/moon_istuhminaaki'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="iitahinu" style="background-image:url(./images/mandan/neck_iitahinu.jpg)" alt="į́į́tahinu'">
+					<audio id="audiitahinu">
+						<source src="nueta_audio/neck_iitahinu'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/neck_iitahinu'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="paaxu" style="background-image:url(./images/mandan/nose_paaxu.jpg)" alt="pááxu'">
+					<audio id="audpaaxu">
+						<source src="nueta_audio/nose_paaxu'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/nose_paaxu'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="xahxuupe" style="background-image:url(./images/mandan/onion_xahxuupe.jpg)" alt="xąhxų́ųpe'">
+					<audio id="audxahxuupe">
+						<source src="nueta_audio/onion_xahxuupe'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/onion_xahxuupe'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="koosiireshka" style="background-image:url(./images/mandan/orange_koosiireshka.jpg)" alt="koosííre'shka'">
+					<audio id="audkoosiireshka">
+						<source src="nueta_audio/orange_koosiire'shka'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/orange_koosiire'shka'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>				
+				<div class="swiper-slide" id="ihkihe" style="background-image:url(./images/mandan/owl_ihkihe.jpg)" alt="įhkíhe">
+					<audio id="audihkihe">
+						<source src="nueta_audio/owl_ihkihe_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/owl_ihkihe_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="hupinihotekopsi" style="background-image:url(./images/mandan/pepper_hupinihote_kopsi.jpg)" alt="húpiniho'te kopsí'">
+					<audio id="audhupinihotekopsi">
+						<source src="nueta_audio/pepper_hupiniho'te_kopsi'_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/pepper_hupiniho'te_kopsi'_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="paaxupirix" style="background-image:url(./images/mandan/pig_paaxu_pirix.jpg)" alt="pááxu' pírix">
+					<audio id="audpaaxupirix">
+						<source src="nueta_audio/pig_paaxu'_pirix_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/pig_paaxu'_pirix_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="waakta" style="background-image:url(./images/mandan/plum_waakta.jpg)" alt="wáákta'">
+					<audio id="audwaakta">
+						<source src="nueta_audio/plum_waakta'_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/plum_waakta'_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="pshiixaare" style="background-image:url(./images/mandan/sage_pshiixaare.jpg)" alt="pshį́į́xaare">
+					<audio id="audpshiixaare">
+						<source src="nueta_audio/sage_pshiixaare_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/sage_pshiixaare_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+					<div class="swiper-slide" id="hupinihote" style="background-image:url(./images/mandan/salt_hupinihote.jpg)" alt="húpiniho'te">
+					<audio id="audhupinihote">
+						<source src="nueta_audio/salt_hupiniho'te_eb_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/salt_hupiniho'te_eb_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="omnihesh" style="background-image:url(./images/mandan/see_you_later_omnihesh.jpg)" alt="Ómnihe'sh!">
+					<audio id="audomnihesh">
+						<source src="nueta_audio/see_you_later_omnihe'sh_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/see_you_later_omnihe'sh_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="miniskuhe" style="background-image:url(./images/mandan/soda_miniskuhe.jpg)" alt="miniskų́he">
+					<audio id="audminiskuhe">
+						<source src="nueta_audio/soda_miniskuhe_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/soda_miniskuhe_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="xkeke" style="background-image:url(./images/mandan/star_xkeke.jpg)" alt="xkéke">
+					<audio id="audxkeke">
+						<source src="nueta_audio/star_xkeke_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/star_xkeke_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="xahsheshka" style="background-image:url(./images/mandan/strawberry_xahsheeshka.jpg)" alt="xą́hshe'shka'">
+				  	<audio id="audxahsheshka">
+						<source src="nueta_audio/strawberry_xahshe'shka'_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/strawberry_xahshe'shka'_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="maaskuhe" style="background-image:url(./images/mandan/sugar_maaskuhe.jpg)" alt="mááskųhe">
+					<audio id="audmaaskuhe">
+						<source src="nueta_audio/sugar_maaskuhe_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/sugar_maaskuhe_ip.mp3" type="audio/mpeg"/>
+					</audio>		
+				</div>
+				<div class="swiper-slide" id="hapminaaki" style="background-image:url(./images/mandan/sun_hapminaaki.jpg)" alt="hą́pminaahki'">
+					<audio id="audhapminaaki">
+						<source src="nueta_audio/sun_hapminaaki'_eb_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/sun_hapminaaki'_eb_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="sipushkaxte" style="background-image:url(./images/mandan/turkey_sipushkaxte.jpg)" alt="sípushka' xté'">
+					<audio id="audsipushkaxte">
+						<source src="nueta_audio/turkey_sipushka'_xte'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/turkey_sipushka'_xte'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="waaxtaanishish" style="background-image:url(./images/mandan/very_good_waaxtaani_shish.jpg)" alt="Wááxtaani shí'sh!">
+					<audio id="audwaaxtaanishish">
+						<source src="nueta_audio/very_good_waaxtaani_shi'sh_ip.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/very_good_waaxtaani_shi'sh_ip.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="koose" style="background-image:url(./images/mandan/watermelon_koose.jpg)" alt="koosé'">
+					<audio id="audkoose">
+						<source src="nueta_audio/watermelon_koose'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/watermelon_koose'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="xarate" style="background-image:url(./images/mandan/wolf_xarate.jpg)" alt="xárate'">
+					<audio id="audxarate">
+						<source src="nueta_audio/wolf_xarate'_eb.ogg" type="audio/ogg"/>
+						<source src="nueta_audio/wolf_xarate'_eb.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				
+			</div>
+		
+	</main>
+	
+	<nav class="langNav Mannav">
+		<p style="margin-bottom:20px;margin-top:10px;color:white;font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'">Arrange cards alphabetically by:</p>
+		<a id="EMlk" href="man-eng.html" style="color:firebrick;font-family:Amarante;text-shadow: 2px 2px gray">Núú’etaa /<br>Núptaare</a>
+		<p style="font-size:2.5em;color:gray;font-family:Nova Cut;text-shadow: 2px 2px black">Mashí’</p>
+		
+		<div class="reflist">
+	 		<ul class="ManNavLst">
+				<li><a href="#" class="mashitawaakta" title="mashí tawáákta’">apple</a></li>
+				<li><a href="#" class="aare" title="ááre">arm</a></li>
+				<li><a href="#" class="ishida" title="nahé">back</a></li>
+				<li><a href="#" class="oomnike" title="óómnike">beans</a></li>
+				<li><a href="#" class="warape" title="wárape">beaver</a></li>
+				<li><a href="#" class="waapapshiire" title="waapápshiire">bread</a></li>
+				<li><a href="#" class="mahse" title="máh sé’">carrots</a></li>
+				<li><a href="#" class="puse" title="pusé">cat</a></li>
+				<li><a href="#" class="waraxuure" title="waráxuure">coffee</a></li>
+				<li><a href="#" class="kooxate" title="kóóxą’te">corn</a></li>
+				<li><a href="#" class="maaishu" title="mááhsi’">eagle</a></li>
+				<li><a href="#" class="maaniika" title="máániika’">eggs</a></li>
+				<li><a href="#" class="uupa" title="ų́ų́pa’">elk</a></li>
+				<li><a href="#" class="istami" title="istámi’">eyes</a></li>
+				<li><a href="#" class="po" title="pó’">fish</a></li>
+				<li><a href="#" class="woorute" title="wóórute">food</a></li>
+				<li><a href="#" class="shi" title="shí’">foot</a></li>
+				<li><a href="#" class="siihaairokinire" title="sį́į́haa írokini’re">frybread</a></li>
+				<li><a href="#" class="shish" title="Shí’sh! / Shí’re!">Good!</a></li>
+				<li><a href="#" class="mniheekshish" title="Mníheek shí’sh! / shí’re!">Good to see you!</a></li>
+				<li><a href="#" class="pahi" title="pahį́’">hair</a></li>
+				<li><a href="#" class="uke" title="ųké">hand</a></li>
+				<li><a href="#" class="pa" title="pá’<">head</a></li>
+				<li><a href="#" class="natka" title="nátka’">heart</a></li>
+				<li><a href="#" class="manise" title="maníse">horse</a></li>
+				<li><a href="#" class="tashkasha" title="Tashká’sha? / Tashká’na?">How are you?</a></li>
+				<li><a href="#" class="waaoroo" title="wáá’oroo">language</a></li>
+				<li><a href="#" class="maskape" title="má’skape">meat</a></li>
+				<li><a href="#" class="mashkaomni" title="mashká ómni’">milk</a></li>
+				<li><a href="#" class="istuhminaaki" title="istų́hminaaki’">moon</a></li>
+				<li><a href="#" class="iitahinu" title="į́į́tahinu’">neck</a></li>
+				<li><a href="#" class="paaxu" title="pááxu’">nose</a></li>
+				<li><a href="#" class="xahxuupe" title="xąhxų́ų́pe’">onion</a></li>
+				<li><a href="#" class="koosiireshka" title="koosííre’shka’">orange</a></li>
+				<li><a href="#" class="ihkihe" title="įhkíhe">owl</a></li>
+				<li><a href="#" class="hupinihotekopsi" title="húpniho’te kopsí’">pepper</a></li>
+				<li><a href="#" class="paaxupirix" title="pááxu’ pírix">pig</a></li>
+				<li><a href="#" class="waakta" title="wáákta’">plum</a></li>
+				<li><a href="#" class="pshiixaare" title="pshį́į́xaare">sage</a></li>
+				<li><a href="#" class="hupinihote" title="húpiniho’te">salt</a></li>
+				<li><a href="#" class="omnihesh" title="Ómnihe’sh! / Ómnihe’re!">See you later!</a></li>
+				<li><a href="#" class="miricigua" title="miniskųhé">soda, pop</a></li>
+				<li><a href="#" class="sakaa" title="xkéke">star</a></li>
+				<li><a href="#" class="xahsheshka" title="xą́hshe’shka’">strawberry</a></li>
+				<li><a href="#" class="maacigua" title="mááskųhe">sugar</a></li>
+				<li><a href="#" class="hapminaaki" title="hą́pminaaki’">sun</a></li>
+				<li><a href="#" class="sipushkaxte" title="sípushka’ xté’">turkey</a></li>
+				<li><a href="#" class="waaxtaanishish" title="Wááxtaani shí’sh! / shí’re!">Very good!</a></li>
+				<li><a href="#" class="koose" title="koosé’">watermelon</a></li>	
+				<li><a href="#" class="xarate" title="xárate’">wolf</a></li>
+	  		</ul>
+		</div>
+		
+	</nav>
+	 
+	<footer class="LangFooter Manlang">
+		<a href="http://mhanation.com/tribal-education-department/"><img class="logoEdu" src="images/MHA-Education-Department-logo.png" alt="MHA TED Logo"/></a>
+		<p id="copy">© 2019 MHA Nation Tribal Education Department</p>
+		<a href="http://mhanation.com/"><img id="logoMHA"  src="images/download.png" alt="MHA Logo"/></a>
+	</footer>
+	  
+  </div>
+	
+	
+		
+	<script src="card-java.js"></script>
+	<script src="swiper-4.5.0/dist/js/swiper.min.js"></script>
+	
+	<script>
+
+		
+		var swiper = new Swiper('.swiper-container', {
+			effect: 'coverflow',
+			grabCursor: true,
+			centerdSlides: true,
+			slidesPerView: 'auto',
+			coverflowEffect: {
+				rotate: 50,
+				stretch: 0,
+				depth: 100,
+				modifier: 1,
+				slideShadows: true,
+			},
+			/*loop: true,*/
+			
+		});
+		
+		document.querySelector('.mashitawaakta').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(0, 0);
+		});
+		document.querySelector('.aare').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(1, 0);
+		});
+		document.querySelector('.nahe').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(2, 0);
+		});
+		document.querySelector('.oomnike').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(3, 0);
+		});
+		document.querySelector('.warape').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(4, 0);
+		});
+		document.querySelector('.waapapshiire').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(5, 0);
+		});
+		document.querySelector('.mahse').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(6, 0);
+		});
+		document.querySelector('.puse').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(7, 0);
+		});
+		document.querySelector('.waraxuure').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(8, 0);
+		});
+		document.querySelector('.kooxate').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(9, 0);
+		});
+		document.querySelector('.maahsi').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(10, 0);
+		});
+		document.querySelector('.maaniika').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(11, 0);
+		});
+		document.querySelector('.uupa').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(12, 0);
+		});
+		document.querySelector('.istami').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(13, 0);
+		});
+		document.querySelector('.po').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(14, 0);
+		});
+		document.querySelector('.woorute').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(15, 0);
+		});
+		document.querySelector('.shi').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(16, 0);
+		});
+		document.querySelector('.siihaairokinire').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(17, 0);
+		});
+		document.querySelector('.shish').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(18, 0);
+		});
+		document.querySelector('.mniheekshish').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(19, 0);
+		});
+		document.querySelector('.pahi').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(20, 0);
+		});
+		document.querySelector('.uke').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(21, 0);
+		});
+		document.querySelector('.pa').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(22, 0);
+		});
+		document.querySelector('.natka').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(23, 0);
+		});
+		document.querySelector('.manise').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(24, 0);
+		});
+		document.querySelector('.tashkasha').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(25, 0);
+		});
+		document.querySelector('.waaoroo').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(26, 0);
+		});
+		document.querySelector('.maskape').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(27, 0);
+		});
+		document.querySelector('.mashkaomni').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(28, 0);
+		});
+		document.querySelector('.istuhminaaki').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(29, 0);
+		});
+		document.querySelector('.iitahinu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(30, 0);
+		});
+		document.querySelector('.paaxu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(31, 0);
+		});
+		document.querySelector('.xahxuupe').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(32, 0);
+		});
+		document.querySelector('.koosiireshka').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(33, 0);
+		});
+		document.querySelector('.ihkihe').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(34, 0);
+		});
+		document.querySelector('.hupinihotekopsi').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(35, 0);
+		});
+		document.querySelector('.paaxupirix').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(36, 0);
+		});
+		document.querySelector('.waakta').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(37, 0);
+		});
+		document.querySelector('.pshiixaare').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(38, 0);
+		});
+		document.querySelector('.hupinihote').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(39, 0);
+		});
+		document.querySelector('.omnihesh').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(40, 0);
+		});
+		document.querySelector('.miniskuhe').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(41, 0);
+		});
+		document.querySelector('.xkeke').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(42, 0);
+		});
+		document.querySelector('.xahsheshka').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(43, 0);
+		});
+		document.querySelector('.maaskuhe').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(44, 0);
+		});
+		document.querySelector('.hapminaaki').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(45, 0);
+		});
+		document.querySelector('.sipushkaxte').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(46, 0);
+		});
+		document.querySelector('.waaxtaanishish').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(47, 0);
+		});
+		document.querySelector('.koose').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(48, 0);
+		});
+		document.querySelector('.xarate').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(49, 0);
+		});
+
+		
+	
+	</script>
+</body>
+</html>

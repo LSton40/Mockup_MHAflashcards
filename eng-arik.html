@@ -1,0 +1,633 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="card-styles.css">
+<link rel="stylesheet" href="swiper-4.5.0/dist/css/swiper.min.css">
+<link href="https://fonts.googleapis.com/css?family=Grenze" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kavoon" rel="stylesheet">
+<script src="jquery-3.2.1.min.js"></script>
+<title>English-Arikara Flashcards</title>
+</head>
+
+<body>
+	
+	<div class="container">	
+
+	<header class="LangHeader Ariklang">
+		<a id="backbtn" href="index.html">Home</a>
+		<p class="title Arititle" style="color:#0D54F1;font-family:Grenze">Sáhniš Vocabulary Cards (SaNIštaaká)</p>
+	</header>
+	
+
+ 	<main class="soundcards swiper-container Arikmain">		
+		<!--<div class="soundcards swiper-container">-->
+			<div class="card swiper-wrapper">
+				
+				<div class="swiper-slide" id="wiinu" style="background-image:url(./images/arikara/arm_wiinu.jpg)" alt="wiínu'">
+					<audio id="audwiinu">
+						<source src="arikara_audio/wiinu_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/wiínu'_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="nistaaku" style="background-image:url(./images/arikara/back_nistaaku.jpg)" alt="NIstaáku'">
+					<audio id="audnistaaku">
+						<source src="arikara_audio/NIstaáku'_ap2.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/NIstaáku'_ap2.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="atit" style="background-image:url(./images/arikara/bean_atit.jpg)" alt="átit">
+					<audio id="audatit">
+						<source src="arikara_audio/átit_sg1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/átit_sg1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="citux" style="background-image:url(./images/arikara/beaver_citux.jpg)" alt="čítUx">					
+					<audio id="audcitux">
+						<source src="arikara_audio/cítux_ap2.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/cítux_ap2.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="isataau" style="background-image:url(./images/arikara/bread_isataau.jpg)" alt="isataá'u'">
+					<audio id="audisataau">
+						<source src="arikara_audio/isataa_u_ap2.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/isataa_u_ap2.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="tsuuxitwahat" style="background-image:url(./images/arikara/carrot_tsuuxitwahat.jpg)" alt="tšuuxItwáhAt">
+					<audio id="audtsuuxitwahat">
+						<source src="arikara_audio/tshuuxitwahat_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/tshuuxitwahat_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="skariwiru" style="background-image:url(./images/arikara/cat_skariwiru.jpg)" alt="skariwíru'">
+					<audio id="audskariwiru">
+						<source src="arikara_audio/skariwiru'_ap3.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/skariwiru'_ap3.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="tskaatit" style="background-image:url(./images/arikara/coffee_tskaatit.jpg)" alt="tskaatít">
+					<audio id="audtskaatit">
+						<source src="arikara_audio/tskaatit_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/tskaatit_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="neesu" style="background-image:url(./images/arikara/corn_neesu.jpg)" alt="neéšu'">					
+					<audio id="audneesu">
+						<source src="arikara_audio/neeshu_sg1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/neeshu_sg1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="scirihts" style="background-image:url(./images/arikara/coyote_scirihts.jpg)" alt="sčiríhtš">
+					<audio id="audscirihts">
+						<source src="arikara_audio/sčirihtš_ap3.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/sčirihtš_ap3.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="taakaxts" style="background-image:url(./images/arikara/dried_meat_taakaxts.jpg)" alt="taakáxtš">
+					<audio id="audtaakaxts">
+						<source src="arikara_audio/taakaxtsh_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/taakaxtsh_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="neetahkas" style="background-image:url(./images/arikara/eagle_neetahkas.jpg)" alt="neétAhkas">
+					<audio id="audneetahkas">
+						<source src="arikara_audio/neetahkas_ap3.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/neetahkas_ap3.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="nipiiku" style="background-image:url(./images/arikara/eggs_nipiiku.jpg)" alt="nipiíku'">
+					<audio id="audnipiiku">
+						<source src="arikara_audio/nipiiku'_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/nipiiku'_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="wah" style="background-image:url(./images/arikara/elk_wah.jpg)" alt="wáh">
+					<audio id="audwah">
+						<source src="arikara_audio/wah_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/wah_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="ciriiku" style="background-image:url(./images/arikara/eye_ciriiku.jpg)" alt="čiriíku'">
+					<audio id="audciriiku">
+						<source src="arikara_audio/ciriiku_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/ciriiku_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="ciwahts" style="background-image:url(./images/arikara/fish_ciwahts.jpg)" alt="čiwáhtš">
+					<audio id="audciwahts">
+						<source src="arikara_audio/ciwahts_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/ciwahts_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="haakawaasisu" style="background-image:url(./images/arikara/food_haakawaasisu.jpg)" alt="haakawaasíšu'">
+					<audio id="audhaakawaasisu">
+						<source src="arikara_audio/haakawaasishu_ls.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/haakawaasishu_ls.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="axu" style="background-image:url(./images/arikara/foot_axu.jpg)" alt="átit">
+					<audio id="audaxu">
+						<source src="arikara_audio/axu_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/axu_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="isataaharoosiisu" style="background-image:url(./images/arikara/frybread_isataaharoosiisu.jpg)" alt="isataaharoosiíšu'">
+					<audio id="audisataaharoosiisu">
+						<source src="arikara_audio/isataaharoosiishu_ap3.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/isataaharoosiishu_ap3.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="tsus" style="background-image:url(./images/arikara/grapes_tsus.jpg)" alt="tšús">
+					<audio id="audtsus">
+						<source src="arikara_audio/tshus_ap3.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/tshus_ap3.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="uuxu" style="background-image:url(./images/arikara/hair_uuxu.jpg)" alt="uúxu'">
+					<audio id="auduuxu">
+						<source src="arikara_audio/uuxu_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/uuxu_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="isu" style="background-image:url(./images/arikara/hand_isu.jpg)" alt="íšu'">
+					<audio id="audisu">
+						<source src="arikara_audio/ishu_ls.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/ishu_ls.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="paxu" style="background-image:url(./images/arikara/head_paxu.jpg)" alt="páxu'">
+					<audio id="audpaxu">
+						<source src="arikara_audio/paxu_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/paxu_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="wiisu" style="background-image:url(./images/arikara/heart_wiisu.jpg)" alt="wiísu'">
+					<audio id="audwiisu">
+						<source src="arikara_audio/wiisu_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/wiisu_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="xaawaaruxti" style="background-image:url(./images/arikara/horse_xaawaaruxti.jpg)" alt="xaawaarúxti'">
+					<audio id="audxaawaaruxti">
+						<source src="arikara_audio/xaawaaruxti_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/xaawaaruxti_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="ticewekunaxuut" style="background-image:url(./images/arikara/how_are_you_tice_wekunaxuuut.jpg)" alt="tičé wekuNAxuú'Ut">
+					<audio id="audticewekunaxuut">
+						<source src="arikara_audio/tice_wekunaxuu_ut_ap2.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/tice_wekunaxuu_ut_ap2.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="atistit" style="background-image:url(./images/arikara/I_am_good_atistit_tatuuut.jpg)" alt="atíštIt tatuú'Ut">
+					<audio id="audatistit">
+						<source src="arikara_audio/atishtit_tatuu_ut_ap2.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/atishtit_tatuu_ut_ap2.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="ciwetatarikacis" style="background-image:url(./images/arikara/Im_glad_to_see_you_ciwetatarikacis.jpg)" alt="čiwetatarikačíš">
+					<audio id="audciwetatarikacis">
+						<source src="arikara_audio/ciwetatarikacish_ls.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/ciwetatarikacish_ls.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="hasi" style="background-image:url(./images/arikara/look_hasi.jpg)" alt="hásI">
+					<audio id="audhasi">
+						<source src="arikara_audio/hasI_ls.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/hasI_ls.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="tsasts" style="background-image:url(./images/arikara/meat_tsasts.jpg)" alt="tsástš">
+					<audio id="audtsasts">
+						<source src="arikara_audio/tsastsh_ap2.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/tsastsh_ap2.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="etciisu" style="background-image:url(./images/arikara/milk_etciisu.jpg)" alt="etčiísu'">
+					<audio id="audetciisu">
+						<source src="arikara_audio/etciisu_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/etciisu_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="pah" style="background-image:url(./images/arikara/moon_pah.jpg)" alt="páh">
+					<audio id="audpah">
+						<source src="arikara_audio/pah_awb1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/pah_awb1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="ciisu" style="background-image:url(./images/arikara/neck_ciisu.jpg)" alt="čiísu'">
+					<audio id="audciisu">
+						<source src="arikara_audio/ciisu_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/ciisu_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="siniitu" style="background-image:url(./images/arikara/nose_siniitu.jpg)" alt="siniítu'">
+					<audio id="audsiniitu">
+						<source src="arikara_audio/siniitu_ap2.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/siniitu_ap2.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="kooxu" style="background-image:url(./images/arikara/onion_kooxu.jpg)" alt="koóxu'">
+					<audio id="audkooxu">
+						<source src="arikara_audio/kooxu'_sg1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/kooxu'_sg1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="wahuxtahkata" style="background-image:url(./images/arikara/orange_wahuxtahkata.jpg)" alt="wahUxtAhkáta">
+					<audio id="audwahuxtahkata">
+						<source src="arikara_audio/wahuxtahkata_ew1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/wahuxtahkata_ew1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>				
+				<div class="swiper-slide" id="wahuru" style="background-image:url(./images/arikara/owl_wahuru.jpg)" alt="WAhúru'">
+					<audio id="audwahuru">
+						<source src="arikara_audio/wahuru_ap3.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/wahuru_ap3.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="nakatiitici" style="background-image:url(./images/arikara/pepper_nakatiitici.jpg)" alt="nakatiitíčI">
+					<audio id="audnakatiitici">
+						<source src="arikara_audio/nakatiitiči_ew1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/nakatiitiči_ew1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="kuhkux" style="background-image:url(./images/arikara/pig_kuhkux.jpg)" alt="kúhkUx">
+					<audio id="audkuhkux">
+						<source src="arikara_audio/kuhkux_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/kuhkux_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="niwaharit" style="background-image:url(./images/arikara/plum_niwaharit.jpg)" alt="niWAharít">
+					<audio id="audniwaharit">
+						<source src="arikara_audio/niwaharit_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/niwaharit_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="ceewaut" style="background-image:url(./images/arikara/sage_ceewaut.jpg)" alt="čeewá'ut">
+					<audio id="audceewaut">
+						<source src="arikara_audio/ceewa'ut_ap2.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/ceewa'ut_ap2.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+					<div class="swiper-slide" id="kaistaaka" style="background-image:url(./images/arikara/salt_kaistaaka.jpg)" alt="ka'istaaká">
+					<audio id="audkaistaaka">
+						<source src="arikara_audio/ka'istaaka_ew1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/ka'istaaka_ew1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="natkatkox" style="background-image:url(./images/arikara/see_you_later_natkat_koxtooteerit.jpg)" alt="nátkAt koxtooteéRIt">
+					<audio id="audnatkatkox">
+						<source src="arikara_audio/natkat_koxtooteerit_ls.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/natkat_koxtooteerit_ls.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="nohtsahaniwaara" style="background-image:url(./images/arikara/soda_nohtsahaniwaara.jpg)" alt="nohtsAhaniwaáRA">
+					<audio id="audnohtsahaniwaara">
+						<source src="arikara_audio/nohtshaniwaara_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/nohtshaniwaara_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="sakaa" style="background-image:url(./images/arikara/star_sakaaa.jpg)" alt="sákaa'A">
+					<audio id="audsakaa">
+						<source src="arikara_audio/sakaa'a_cp1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/sakaa'a_cp1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="aparu" style="background-image:url(./images/arikara/strawberry_aparu.jpg)" alt="apáru'">
+				  	<audio id="audaparu">
+						<source src="arikara_audio/aparu_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/aparu_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="kait" style="background-image:url(./images/arikara/sugar_kait.jpg)" alt="ka'ít">
+					<audio id="audkait">
+						<source src="arikara_audio/ka'it_sg2.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/ka'it_sg2.mp3" type="audio/mpeg"/>
+					</audio>		
+				</div>
+				<div class="swiper-slide" id="sakuunu" style="background-image:url(./images/arikara/sun_sakuunu.jpg)" alt="šakuúnu'">
+					<audio id="audsakuunu">
+						<source src="arikara_audio/shakuunu_sg1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/shakuunu_sg1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="nu" style="background-image:url(./images/arikara/turkey_nu.jpg)" alt="nú'">
+					<audio id="audnu">
+						<source src="arikara_audio/nu'_sg1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/nu'_sg1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				<div class="swiper-slide" id="wahuxanaaxu" style="background-image:url(./images/arikara/watermelon_wahuxanaaxu.jpg)" alt="wahUxanaáxu'">
+					<audio id="audwahuxanaaxu">
+						<source src="arikara_audio/wahuxanaaxu_ap1.ogg" type="audio/ogg"/>
+						<source src="arikara_audio/wahuxanaaxu_ap1.mp3" type="audio/mpeg"/>
+					</audio>
+				</div>
+				
+			</div>
+		
+	</main>
+	
+	<nav class="langNav Ariknav">
+		<p style="margin-bottom:20px;margin-top:10px;color:white;font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'"><i>Arrange cards alphabetically by:</i></p>
+		<a id="SElk" href="arik-eng.html" style="color:#0D54F1;font-family:Kavoon">Sáhniš</a>
+		<p style="font-size:2.5em;font-family:sancreek;color:gray;text-shadow: 2px 2px black">SaNIštaaká</p>
+		
+		<div class="reflist">
+	 		<ul class="AriNavLst">
+				<li><a href="#" class="wiinu" title="wiínu’">arm</a></li>
+				<li><a href="#" class="nistaaku" title="NIstaáku’">back</a></li>
+				<li><a href="#" class="atit" title="átit">beans</a></li>
+				<li><a href="#" class="citux" title="čítUx">beaver</a></li>
+				<li><a href="#" class="isataau" title="isataá’u’">bread</a></li>
+				<li><a href="#" class="tsuuxitwahat" title="tšuuxItwáhAt">carrots</a></li>
+				<li><a href="#" class="skariwiru" title="skariwíru’">cat</a></li>
+				<li><a href="#" class="tskaatit" title="tskaatít">coffee</a></li>
+				<li><a href="#" class="neesu" title="neéšu’">corn</a></li>
+				<li><a href="#" class="scirihts" title="sčiríhtš">coyote</a></li>
+				<li><a href="#" class="taakaxts" title="taakáxtš">dried meat</a></li>
+				<li><a href="#" class="neetahkas" title="neétAhkas">eagle</a></li>
+				<li><a href="#" class="nipiiku" title="nipiíku’">eggs</a></li>
+				<li><a href="#" class="wah" title="wáh">elk</a></li>
+				<li><a href="#" class="ciriiku" title="čiriíku’">eyes</a></li>
+				<li><a href="#" class="ciwahts" title="čiwáhtš">fish</a></li>
+				<li><a href="#" class="haakawaasisu" title="haakawaasíšu’">food</a></li>
+				<li><a href="#" class="axu" title="áxu’">foot</a></li>
+				<li><a href="#" class="isataaharoosiisu" title="isataaharoosiíšu’">frybread</a></li>
+				<li><a href="#" class="tsus" title="tšús">grapes</a></li>
+				<li><a href="#" class="uuxu" title="uúxu’">hair</a></li>
+				<li><a href="#" class="isu" title="íšu’">hand</a></li>
+				<li><a href="#" class="paxu" title="páxu’">head</a></li>
+				<li><a href="#" class="wiisu" title="wiísu’">heart</a></li>
+				<li><a href="#" class="xaawaaruxti" title="xaawaarúxti’">horse</a></li>
+				<li><a href="#" class="ticewekunaxuut" title="tičé wekuNAxuú’Ut?">How are you?</a></li>
+				<li><a href="#" class="atistit" title="atíštIt tatuú’Ut!">I'm good!</a></li>
+				<li><a href="#" class="ciwetatarikacis" title="čiwetatarikačíš!">I'm glad to see you!</a></li>
+				<li><a href="#" class="hasi" title="hásI!">Look!</a></li>
+				<li><a href="#" class="tsasts" title="tsástš">meat</a></li>
+				<li><a href="#" class="etciisu" title="etčiísu’">milk</a></li>
+				<li><a href="#" class="pah" title="páh">moon</a></li>
+				<li><a href="#" class="ciisu" title="čiísu’">neck</a></li>
+				<li><a href="#" class="siniitu" title="sⁱniítu’">nose</a></li>
+				<li><a href="#" class="kooxu" title="koóxu’">onion</a></li>
+				<li><a href="#" class="wahuxtahkata" title="wahUxtAhkatá">orange</a></li>
+				<li><a href="#" class="wahuru" title="WAhúru’">owl</a></li>
+				<li><a href="#" class="nakatiitici" title="nakatiitíčI">pepper</a></li>
+				<li><a href="#" class="kuhkux" title="kúhkUx">pig</a></li>
+				<li><a href="#" class="niwaharit" title="niWAharít">plum</a></li>
+				<li><a href="#" class="ceewaut" title="čeewá’ut">sage</a></li>
+				<li><a href="#" class="kaistaaka" title="ka’istaaká">salt</a></li>
+				<li><a href="#" class="natkat" title="nátkAt koxtooteéRIt!">See you later!</a></li>
+				<li><a href="#" class="nohtsahaniwaara" title="nohtsAhaniwaáRA">soda, pop</a></li>
+				<li><a href="#" class="sakaa" title="sákaa’A">star</a></li>
+				<li><a href="#" class="aparu" title="apáru’">strawberry</a></li>
+				<li><a href="#" class="kait" title="ka’ít">sugar</a></li>
+				<li><a href="#" class="sakuunu" title="šakuúnu’">sun</a></li>
+				<li><a href="#" class="nu" title="nú’">turkey</a></li>
+				<li><a href="#" class="wahuxanaaxu" title="wahUxanaáxu’">watermelon</a></li>	
+	  		</ul>
+		</div>
+		
+	</nav>
+	 
+	<footer class="LangFooter Ariklang">
+		<a href="http://mhanation.com/tribal-education-department/"><img class="logoEdu" src="images/MHA-Education-Department-logo.png" alt="MHA TED Logo"/></a>
+		<p id="copy">© 2019 MHA Nation Tribal Education Department</p>
+		<a href="http://mhanation.com/"><img id="logoMHA"  src="images/download.png" alt="MHA Logo"/></a>
+	</footer>
+	  
+  </div>
+	
+	
+		
+	<script src="card-java.js"></script>
+	<script src="swiper-4.5.0/dist/js/swiper.min.js"></script>
+	
+	<script>
+
+		
+		var swiper = new Swiper('.swiper-container', {
+			effect: 'coverflow',
+			grabCursor: true,
+			centerdSlides: true,
+			slidesPerView: 'auto',
+			coverflowEffect: {
+				rotate: 50,
+				stretch: 0,
+				depth: 100,
+				modifier: 1,
+				slideShadows: true,
+			},
+			/*loop: true,*/
+			
+		});
+		
+		
+		document.querySelector('.wiinu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(0, 0);
+		});
+		document.querySelector('.nistaaku').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(1, 0);
+		});
+		document.querySelector('.atit').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(2, 0);
+		});
+		document.querySelector('.citux').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(3, 0);
+		});
+		document.querySelector('.isataau').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(4, 0);
+		});
+		document.querySelector('.tsuuxitwahat').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(5, 0);
+		});
+		document.querySelector('.skariwiru').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(6, 0);
+		});
+		document.querySelector('.tskaatit').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(7, 0);
+		});
+		document.querySelector('.neesu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(8, 0);
+		});
+		document.querySelector('.scirihts').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(9, 0);
+		});
+		document.querySelector('.taakaxts').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(10, 0);
+		});
+		document.querySelector('.neetahkas').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(11, 0);
+		});
+		document.querySelector('.nipiiku').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(12, 0);
+		});
+		document.querySelector('.wah').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(13, 0);
+		});
+		document.querySelector('.ciriiku').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(14, 0);
+		});
+		document.querySelector('.ciwahts').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(15, 0);
+		});
+		document.querySelector('.haakawaasisu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(16, 0);
+		});
+		document.querySelector('.axu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(17, 0);
+		});
+		document.querySelector('.isataaharoosiisu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(18, 0);
+		});
+		document.querySelector('.tsus').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(19, 0);
+		});
+		document.querySelector('.uuxu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(20, 0);
+		});
+		document.querySelector('.isu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(21, 0);
+		});
+		document.querySelector('.paxu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(22, 0);
+		});
+		document.querySelector('.wiisu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(23, 0);
+		});
+		document.querySelector('.xaawaaruxti').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(24, 0);
+		});
+		document.querySelector('.ticewekunaxuut').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(25, 0);
+		});
+		document.querySelector('.atistit').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(26, 0);
+		});
+		document.querySelector('.ciwetatarikacis').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(27, 0);
+		});
+		document.querySelector('.hasi').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(28, 0);
+		});
+		document.querySelector('.tsasts').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(29, 0);
+		});
+		document.querySelector('.etciisu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(30, 0);
+		});
+		document.querySelector('.pah').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(31, 0);
+		});
+		document.querySelector('.ciisu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(32, 0);
+		});
+		document.querySelector('.siniitu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(33, 0);
+		});
+		document.querySelector('.kooxu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(34, 0);
+		});
+		document.querySelector('.wahuxtahkata').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(35, 0);
+		});
+		document.querySelector('.wahuru').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(36, 0);
+		});
+		document.querySelector('.nakatiitici').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(37, 0);
+		});
+		document.querySelector('.kuhkux').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(38, 0);
+		});
+		document.querySelector('.niwaharit').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(39, 0);
+		});
+		document.querySelector('.ceewaut').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(40, 0);
+		});
+		document.querySelector('.kaistaaka').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(41, 0);
+		});
+		document.querySelector('.natkat').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(42, 0);
+		});
+		document.querySelector('.nohtsahaniwaara').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(43, 0);
+		});
+		document.querySelector('.sakaa').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(44, 0);
+		});
+		document.querySelector('.aparu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(45, 0);
+		});
+		document.querySelector('.kait').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(46, 0);
+		});
+		document.querySelector('.sakuunu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(47, 0);
+		});
+		document.querySelector('.nu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(48, 0);
+		});
+		document.querySelector('.wahuxanaaxu').addEventListener('click', function (e) {
+			e.preventDefault();
+			swiper.slideTo(49, 0);
+		});
+		
+
+		
+	
+	</script>
+</body>
+</html>
